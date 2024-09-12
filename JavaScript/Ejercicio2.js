@@ -60,7 +60,6 @@ if(esPremium){
 
 }
 
-
 // 3. Number 
 var cantidad ;
 const costo_producto = 10.50;
