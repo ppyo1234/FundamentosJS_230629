@@ -9,10 +9,11 @@ Previo a iniciar el desarrollo de softwarepara web usando el framework de NodeJS
 
 |No.|Descripción|Estatus|Estatus|
 |--|--|--|--|
-|1.|Metodología de Evaluación|Activa|
-|2.|Inicialización del Proyecto de Fundamentos de JS|Activa|
-|3.|Declaración de Variables|Activa|
-|4.|Introducción a objetos|Activa|
+|1.|Metodología de Evaluación|1|Finalizada|
+|2.|Inicialización del Proyecto de Fundamentos de JS|5|Activa|
+|3.|Declaración de Variables(Undefined/Booolean/Number)|10|Activa|
+|4.|Declafración de Variables(String/BigInit/Symbol/null)|10|Activa|
+|5.|Introducción a objetos|Activa|
 
 
 ### Autor 

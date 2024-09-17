@@ -87,6 +87,25 @@ console.log(`Tu abono es de ${monto_transacción} ha sido recibido , tu nuevo sa
 const alumno = "Jose Arturo Garcia Gonzalez"
 let producto = "Monitor 20\""
 console.warn("---Tipo de Dato - STRING (Cadena de caracteres)---")
+console.log (`El nombre del alumno es ${alumno}, que es un tipo de dato ${typeof(alumno)}`);
+producto="Monitor 20\""
+console.log (`El nombre del producto es ${producto}, que es un tipo de dato ${typeof(producto)}`);
+
+//Manipulando los Strings 
+
+console.log (`Mas adelante podremos transforammarnos el contenido de los strings usando funciones especificas como convertir a mayusculas: ${alumno}=>${alumno.toUpperCase()}`)
+console.log (`Mas adelante podremos transforammarnos el contenido de los strings usando funciones especificas como convertir a minusculas: ${alumno}=>${alumno.toLowerCase()}`)
+
+//BIGINIT (Enteros de dimensiones amplias ) - Generalmente utilizando en sistemas matematicos , fisicos o espaciales donde se requiere de una excelente precisión númerica
+console.warn ("Tipo de datos mayores ")
+
+const numeroGrande=123456789
+const numeroGrande2=123456789123456789
+const numeroGrande3=123456789123456789123456789123456789
+
+console.log(`El primer experimento de un numero grande es ${numeroGrande} ,que si es soportado por number , y su tipo de dato es : ${typeof(numeroGrande)}`)
+console.log(`El primer experimento de un numero grande es ${numeroGrande2} ,que si es soportado por number , y su tipo de dato es : ${typeof(numeroGrande2)}`)
+console.log(`El primer experimento de un numero grande es ${numeroGrande3} ,que si es soportado por number , y su tipo de dato es : ${typeof(numeroGrande3)}`)
 
 /// String o cADENAS DE TEXTO 
 
