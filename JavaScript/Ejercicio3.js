@@ -1,38 +1,30 @@
-/// String o cADENAS DE TEXTO 
+// objetos 
 
-// const alumno = "Juan"
-// let producto = "monitor 20 pulgadas "
+const producto = {
+    nombre : "Tablet",
+    marca :"mac",
+    modelo : "ipad",
+    Costo_Compra : "11500.25",
+    Disponible : true ,
+    sku : Symbol("554684831"),
+    colores: ["Blanco","Negro","Rosa","Azul","Amarillo"]
+}
 
-// const numero = "30"
-// const numero2 = 30
+// imprimir el objeto 
+console.warn(`--OBJETOS ---`)
+console.log(producto);
 
-// console.log (typeof numero)
-// console.log (typeof numero2)
-
-//BigInit
-// const numeroGrande = BigInt(5165416419561971649645165646565)
-// console.log(typeof numeroGrande)
-
-// const numero = 10
-// const numero2 = 20
-
-// console.log(numero + Number(numeroGrande))
-
+// Los objetos tambien pueden representarse en formato de tabla utilizando la función de console.table
+console.table(producto)
 
 
-// const numero = "30"
-// const numero2 = 20
-// console.log(typeof String(numero2))
-// console.log(typeof Number(numero))  
+// Acceder a las propiedades de un objeto 
+console.warn("Leyendo las propiedades de un objeto y sus tipos de dato\n ")
+console.log(`Nombre del producto: ${producto.nombre} que es del tipo: ${typeof(producto.tipo)}\n`)
 
-
-//Symbol
-// const primerSymbol = Symbol(30)
-// const segundoSymbol = Symbol(30)
-// console.log(primerSymbol === segundoSymbol)
-// console.log(primerSymbol.valueOf())
-// console.log(segundoSymbol.valueOf())
-
-// //Null 
-// const descuento = null 
-// console.log (typeof descuento)
+console.log(`Nombre del producto: ${producto.marca} que es del tipo: ${typeof(producto.marca)}\n`)
+console.log(`Nombre del producto: ${producto.modelo} que es del tipo: ${typeof(producto.modelo)}\n`)
+console.log(`Nombre del producto: ${producto.Costo_Compra} que es del tipo: ${typeof(producto.Costo_Compra)}\n`)
+console.log(`Nombre del producto: ${producto.Disponible} que es del tipo: ${typeof(producto.Disponible)}\n`)
+console.log(`Nombre del producto: ${producto.Symbol} que es del tipo: ${typeof(producto.Symbol)}\n`)
+console.log(`Nombre del producto: ${producto.colores} que es del tipo: ${typeof(producto.colores)}\n`)
